@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .blogCardContain {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .blogCardContain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-content {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-title {
+        font-size: 18px;
+    }
+    .blog-desc {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    .communityCard-Wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .communityCard-Wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .community-card .name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .community-card {
+        padding: 10px;
+    }
+    .community-card .reviewTxt {
+        font-size: 14px;
+    }
+}
+

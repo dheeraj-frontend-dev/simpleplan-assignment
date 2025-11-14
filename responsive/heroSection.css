@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+    .cntntInput{
+        border: none;
+    }
+
+    .cntntInput .exploreBtn{
+        width: 160px;
+    }
+    
+    .inputField {
+        align-items: start;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .inputField input{
+        width: 100%;
+        padding: 12px 8px;
+        border-radius: 8px;
+        border: 1px solid rgb(209, 209, 209);
+    }
+
+}
+@media (max-width: 992px) {
+    .heroSec {
+        gap: 20px;
+    }
+    .heroCntnt .heroTitle {
+        font-size: 42px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heroSec {
+        flex-direction: column;
+        text-align: center;
+    }
+    .heroCntnt, .heroSec .heroImg {
+        width: 100%;
+    }
+    .cntntTitle .heroTitle {
+        font-size: 34px;
+        line-height: 32px;
+    }
+    .inputField input{
+        width: 100%;
+    }
+
+    .inputField {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cntntTitle .heroTitle {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .cntntTitle .heroDesc {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+    .cardContain {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardContain {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .classCard-cntnt .classTitle {
+        font-size: 16px;
+    }
+}

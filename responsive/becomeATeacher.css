@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .beTeacher {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .beTeacher {
+        flex-direction: column;
+    }
+    .beTeacher-img, .beTeacher-cntnt {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .beTeacher-cntnt .cntntTitle {
+        font-size: 22px;
+    }
+    .beTeacher-cntnt .cntntDesc {
+        font-size: 14px;
+    }
+}

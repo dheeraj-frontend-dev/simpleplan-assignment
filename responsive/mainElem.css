@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .sectionHead .sectionTitle{
+        font: 28px primaryBold;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sectionContainer{
+        width: 100%;
+        padding: 80px 20px 0;
+        background-color: var(--bg-color);
+        position: relative;
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .featureCardContain {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .featureCardContain {
+        flex-direction: column;
+    }
+    .featureSec .sectionHead {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .featureSec .sectionHead {
+        width: 100%;
+    }
+    .featureCard .featureTitle {
+        font-size: 18px;
+    }
+}

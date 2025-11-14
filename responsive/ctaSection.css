@@ -1,0 +1,87 @@
+@media (max-width: 992px) {
+    .ctaSection{
+        width: 90%;
+        padding: 25px 20px;
+        border-radius: 150px;
+    }
+
+    .ctaTitle{
+        width: 80%;
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .ctaInputField{
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ctaSection{
+        width: 100%;
+        padding: 22px 20px;
+        border-radius: 28px;
+    }
+
+    .ctaTitle{
+        width: 85%;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .ctaDesc{
+        font-size: 15px;
+    }
+
+    .ctaInputField{
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+        gap: 10px 0;
+    }
+
+    .ctaInputField input{
+        width: 100%;
+        height: 40px;
+    }
+
+    .ctaInputField .exploreBtn{
+        width: 160px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ctaSection{
+        width: 95%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .ctaTitle{
+        width: 100%;
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .ctaDesc{
+        width: 95%;
+        margin: 12px auto;
+        font-size: 14px;
+    }
+
+    .ctaInputField{
+        width: 100%;
+        gap: 12px 0;
+    }
+
+    .ctaInputField input{
+        font-size: 14px;
+    }
+
+    .ctaInputField .exploreBtn{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}

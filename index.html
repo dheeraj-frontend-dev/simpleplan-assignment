@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Dheeraj Kumar Yadav</title>
+
+    <link rel="stylesheet" href="style.css"> <!-- StyleSheet Link -->
+    
+    <!-- Responsive StyleSheets -->
+    <link rel="stylesheet" href="responsive/mainElem.css">
+    <link rel="stylesheet" href="responsive/navbar.css">
+    <link rel="stylesheet" href="responsive/heroSection.css">
+    <link rel="stylesheet" href="responsive/featureSection.css">
+    <link rel="stylesheet" href="responsive/classesSection.css">
+    <link rel="stylesheet" href="responsive/categorySection.css">
+    <link rel="stylesheet" href="responsive/reasonSection.css">
+    <link rel="stylesheet" href="responsive/reviewSection.css">
+    <link rel="stylesheet" href="responsive/teacherSection.css">
+    <link rel="stylesheet" href="responsive/becomeATeacher.css">
+    <link rel="stylesheet" href="responsive/blogSection.css">
+    <link rel="stylesheet" href="responsive/ctaSection.css">
+    <link rel="stylesheet" href="responsive/footerSection.css">
+
+
+    <script src="https://kit.fontawesome.com/a656fffa44.js" crossorigin="anonymous"></script> <!-- Font Awesome Link -->
+</head>
+<body>
+
+    <div class="sectionContainer">
+            <!-- NavBar -->
+            <nav class="navbar">
+                <div class="navLeftCntnt">
+                    <div class="logo">Logo.</div>
+                    <div class="dropdownbBtn">Categories <img src="assets/icons/caret.png" alt="Caret Icon"></div>
+                </div>
+                <div class="mobileMenu-btn">
+                    <img src="assets/icons/menuBar.png" alt="Menu Icon">
+                </div>
+                <div class="navRightCntnt">
+                    <p>Teach</p>
+                    <div class="navbarBtn">
+                        <button class="loginBtn navBtn">Log In</button>
+                        <button class="signUpBtn navBtn">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="heroSec section">
+                <div class="heroCntnt">
+                    <div class="cntntTitle">
+                        <div class="heroTitle">
+                            hobbies<img src="assets/img/hero-heart1.png">happiness<img src="assets/img/hero-heart2.png">home
+                        </div>
+                        <p class="heroDesc">A Nordic startup which brings incredibly interesting hobbies from around the world to people of all ages.</p>
+                    </div>
+                    <div class="cntntInput">
+                        <div class="inputField">
+                            <input type="text" placeholder="Enter Your Mail..">
+                            <button class="exploreBtn">
+                                <p>start exploring</p> 
+                                <div class="btnIcon">
+                                    <img src="assets/icons/right.png" alt="arrow Icon" class="defaultRight">
+                                    <img src="assets/icons/right-hover.png" alt="arrow Icon" class="hoverRight">
+                                </div>
+                            </button>    
+                        </div>
+                    </div>
+                </div>
+                <div class="heroImg">
+                    <img src="assets/img/HeroImg.png" alt="Text Related To Hero Image">
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="featureSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Explore. Enroll. Have Fun. Repeat - here hobby meets happiness</h2>
+                    <p class="sectionDesc"></p>
+                </div>
+
+                <div class="featureCardContain">
+                    <div class="featureCard">
+                        <div class="featureIcon">
+                            <img src="assets/img/artboard-icon.png" alt="Feature Icon 1">
+                        </div>
+                        <div class="featureTitle">Learn something new</div>
+                        <div class="featureDesc">Explore your passion and go beyond the physical and mental boundaries of time, age, gender or geography.</div>
+                    </div>
+                    <div class="featureCard">
+                        <div class="featureIcon">
+                            <img src="assets/img/teacher-icon.png" alt="Feature Icon 2">
+                        </div>
+                        <div class="featureTitle">Skilled & Passionate Teachers</div>
+                        <div class="featureDesc">We offers Interactive classes by experts who are qualified and trusted.</div>
+                    </div>
+                    <div class="featureCard">
+                        <div class="featureIcon">
+                            <img src="assets/img/onlineClass-icon.png" alt="Feature Icon 3">
+                        </div>
+                        <div class="featureTitle">Take classes anytime, anywhere</div>
+                        <div class="featureDesc">Join sessions at your own convenience and pace, from the comforts of your home.</div>
+                    </div>
+                    <div class="featureCard">
+                        <div class="featureIcon">
+                            <img src="assets/img/parment-icon.png" alt="Feature Icon 3">
+                        </div>
+                        <div class="featureTitle">Pay as you go</div>
+                        <div class="featureDesc">No enrollment fee for our classes. You only pay for the classes that you take. Your payment is Safe and secure with us.</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Classes Section -->
+            <section class="classesSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Popular Classes</h2>
+                    <p class="sectionDesc">Discover a variety of engaging classes designed to ignite your passion and creativity.</p>
+                </div>
+
+                <div class="cardContain">
+                    <div class="classCard">
+                        <div class="cardImg">
+                            <img src="assets/img/classes-cardImg.jpg">
+                            <div class="cardTop">
+                                <div class="offer">60% off</div>
+                                <div class="bookmark"><img src="assets/icons/ribbon.png" alt="Bookmark Icon"></div>
+                            </div>
+                        </div>
+                        <div class="classCard-cntnt">
+                            <span class="spanElem">language</span>
+                            <div class="classTitle">Class name - Lorem ipsum sit elit varsit lectusi sit amet</div>
+                            <div class="classReview">by <span class="reviewPerson">John Doe</span> <img src="assets/icons/star.png" alt="Star Icon"> <span class="reviewNum">4.7</span></div>
+                            <div class="classInfo">Lorem ipsum dolor sit amet, varius consectetur varius entat consectet adipiscing elit. Ullamcorper...</div>
+                        </div>
+                        <div class="classPriceInfo">
+                            <div class="classPrice">
+                                <span class="discountedPrice">1499</span>
+                                <span class="originalPrice"><del>2000</del></span>
+                            </div>
+                            <div class="classEnrollBtn">Enroll Now</div>
+                        </div>
+                    </div>
+                    <div class="classCard">
+                        <div class="cardImg">
+                            <img src="assets/img/classes-cardImg.jpg">
+                            <div class="cardTop">
+                                <div class="offer">60% off</div>
+                                <div class="bookmark"><img src="assets/icons/ribbon-active.png" alt="Bookmark Icon"></div>
+                            </div>
+                        </div>
+                        <div class="classCard-cntnt">
+                            <span class="spanElem">language</span>
+                            <div class="classTitle">Class name - Lorem ipsum sit elit varsit lectusi sit amet</div>
+                            <div class="classReview">by <span class="reviewPerson">John Doe</span> <img src="assets/icons/star.png" alt="Star Icon"> <span class="reviewNum">4.7</span></div>
+                            <div class="classInfo">Lorem ipsum dolor sit amet, varius consectetur varius entat consectet adipiscing elit. Ullamcorper...</div>
+                        </div>
+                        <div class="classPriceInfo">
+                            <div class="classPrice">
+                                <span class="discountedPrice">1499</span>
+                                <span class="originalPrice"><del>2000</del></span>
+                            </div>
+                            <div class="classEnrollBtn">Enroll Now</div>
+                        </div>
+                    </div>
+                    <div class="classCard">
+                        <div class="cardImg">
+                            <img src="assets/img/classes-cardImg.jpg">
+                            <div class="cardTop">
+                                <div class="offer">60% off</div>
+                                <div class="bookmark"><img src="assets/icons/ribbon.png" alt="Bookmark Icon"></div>
+                            </div>
+                        </div>
+                        <div class="classCard-cntnt">
+                            <span class="spanElem">language</span>
+                            <div class="classTitle">Class name - Lorem ipsum sit elit varsit lectusi sit amet</div>
+                            <div class="classReview">by <span class="reviewPerson">John Doe</span> <img src="assets/icons/star.png" alt="Star Icon"> <span class="reviewNum">4.7</span></div>
+                            <div class="classInfo">Lorem ipsum dolor sit amet, varius consectetur varius entat consectet adipiscing elit. Ullamcorper...</div>
+                        </div>
+                        <div class="classPriceInfo">
+                            <div class="classPrice">
+                                <span class="discountedPrice">1499</span>
+                                <span class="originalPrice"><del>2000</del></span>
+                            </div>
+                            <div class="classEnrollBtn">Enroll Now</div>
+                        </div>
+                    </div>
+                    <div class="classCard">
+                        <div class="cardImg">
+                            <img src="assets/img/classes-cardImg.jpg">
+                            <div class="cardTop">
+                                <div class="offer">60% off</div>
+                                <div class="bookmark"><img src="assets/icons/ribbon.png" alt="Bookmark Icon"></div>
+                            </div>
+                        </div>
+                        <div class="classCard-cntnt">
+                            <span class="spanElem">language</span>
+                            <div class="classTitle">Class name - Lorem ipsum sit elit varsit lectusi sit amet</div>
+                            <div class="classReview">by <span class="reviewPerson">John Doe</span> <img src="assets/icons/star.png" alt="Star Icon"> <span class="reviewNum">4.7</span></div>
+                            <div class="classInfo">Lorem ipsum dolor sit amet, varius consectetur varius entat consectet adipiscing elit. Ullamcorper...</div>
+                        </div>
+                        <div class="classPriceInfo">
+                            <div class="classPrice">
+                                <span class="discountedPrice">1499</span>
+                                <span class="originalPrice"><del>2000</del></span>
+                            </div>
+                            <div class="classEnrollBtn">Enroll Now</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Category Section -->
+            <section class="categSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Browse by Category</h2>
+                </div>
+                <div class="categCardContain">
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/language.png" alt="Language">
+                        </div>
+                        <div class="categTitle">Language</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/cooking.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Cooking</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/music.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Music</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/art&craft.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Art & Craft</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/yoga.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Yoga</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/academic.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Academic</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/backtoroot.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Back To Root</div>
+                    </div>
+                    <div class="categCard">
+                        <div class="categImg">
+                            <img src="assets/img/fun.jpg" alt="Language">
+                        </div>
+                        <div class="categTitle">Funteresting</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reason Section -->
+            <section class="reasonSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Six reasons to choose our class</h2>
+                </div>
+                <div class="reasonCardContain">
+                    <div class="resCard">
+                        <div class="reasonNum">01</div>
+                        <div class="reasonImg"><img src="assets/img/reason1.png"></div>
+                        <div class="reasonTxt">Interactive live online classes at your convenient time slots</div>
+                    </div>
+                    <div class="resCard">
+                        <div class="reasonNum">02</div>
+                        <div class="reasonImg"><img src="assets/img/reason2.png"></div>
+                        <div class="reasonTxt">Learning from passionate, talented and trusted teachers</div>
+                    </div>
+                    <div class="resCard">
+                        <div class="reasonNum">03</div>
+                        <div class="reasonImg"><img src="assets/img/reason3.png"></div>
+                        <div class="reasonTxt">Cross country sharing of interesting and unique hobbies from across the world</div>
+                    </div>
+                    <div class="resCard">
+                        <div class="reasonNum">04</div>
+                        <div class="reasonImg"><img src="assets/img/reason4.png"></div>
+                        <div class="reasonTxt">Age no bar for enroling into your cherished hobby or activity classes</div>
+                    </div>
+                    <div class="resCard">
+                        <div class="reasonNum">05</div>
+                        <div class="reasonImg"><img src="assets/img/reason5.png"></div>
+                        <div class="reasonTxt">Transparent and structured fee payment options</div>
+                    </div>
+                    <div class="resCard">
+                        <div class="reasonNum">06</div>
+                        <div class="reasonImg"><img src="assets/img/reason6.png"></div>
+                        <div class="reasonTxt">Contributing to the revival and nurturing of traditional art forms</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Review Section -->
+            <section class="reviewSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Love From Community</h2>
+                </div>
+                
+                <div class="communityCard-Wrapper">
+                    <div class="community-card">
+                        <img src="assets/icons/quote.png" alt="quote" class="quote-icon">
+                        <div class="profile-img">
+                            <img src="assets/img/review1.jpg" alt="Profile">
+                        </div>
+                        <h3 class="name">Karandeep</h3>
+                        <p class="reviewTxt">
+                            It is nice to be on an international platform where there are teachers from around the world.
+                        </p>
+                    </div>
+
+                    <div class="community-card active">
+                        <img src="assets/icons/quote-active.png" alt="quote" class="quote-icon">
+                        <div class="profile-img">
+                            <img src="assets/img/review2.jpg" alt="Profile">
+                        </div>
+                        <h3 class="name">Kalpana</h3>
+                        <p class="reviewTxt">
+                            The best thing about these classes is that they are live and interactive. They have classes which help us to learn specialties
+                            and famous activities from other countries as well.
+                        </p>
+                        <div class="active-bottom-line"></div>
+                    </div>
+
+                    <div class="community-card">
+                        <img src="assets/icons/quote.png" alt="quote" class="quote-icon">
+                        <div class="profile-img">
+                            <img src="assets/img/review3.jpg" alt="Profile">
+                        </div>
+                        <h3 class="name">Kirti</h3>
+                        <p class="reviewTxt">
+                            As a student, I get to explore and learn about the different cultural specialties of another country with native teachers.
+                        </p>
+                    </div>
+                </div>
+
+                
+                
+            </section>
+
+            <!-- Teacher Section -->
+            <section class="teacherSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Become a Teacher</h2>
+                    <p class="sectionDesc">Join our community of passionate educators and share your expertise with eager learners worldwide.</p>
+                </div>
+
+                <div class="teacherSec-wrapper">
+                    <div class="teacher-arrows">
+                        <button class="arrow-btn prevBtn">
+                            <img src="assets/icons/caret.png" alt="Prev">
+                        </button>
+                        <button class="arrow-btn nextBtn">
+                            <img src="assets/icons/caret.png" alt="Next">
+                        </button>
+                    </div>
+
+                    <div class="teacherCard-contain">
+                        <div class="teacher-card">
+                            <div class="teacher-img shape-left">
+                                <img src="assets/img/teacher1.jpg" alt="Teacher Image">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Karandeep</h3>
+                                <p>YOGA</p>
+                            </div>
+                        </div>
+
+                        <div class="teacher-card teacherMobile">
+                            <div class="teacher-img shape-right">
+                                <img src="assets/img/teacher2.jpg" alt="Teacher Image">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Asier</h3>
+                                <p>ARTS & CRAFT</p>
+                            </div>
+                        </div>
+
+                        <div class="teacher-card simple-shape teacherMobile">
+                            <div class="teacher-img ">
+                                <img src="assets/img/teacher3.jpg" alt="Teacher Image">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Marlus Neilson</h3>
+                                <p>ACADEMICS</p>
+                            </div>
+                        </div>
+
+                        <div class="teacher-card simple-shape teacherMobile">
+                            <div class="teacher-img ">
+                                <img src="assets/img/teacher4.jpg" alt="Teacher Image">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Nichola</h3>
+                                <p>LANGUAGE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Become A Certified Teacher -->
+            <section class="beTeacher section">
+                <div class="beTeacher-img">
+                    <img src="assets/img/certifiedTeacher-secImg.png">
+                </div>
+                <div class="beTeacher-cntnt">
+                    <div class="cntntTitle">Become a certified teacher</div>
+                    <div class="cntntDesc">We only have the best and trusted teachers from the globe. Join us if you have the skill and passion to share it.</div>
+                    <ul class="cntntPoint">
+                        <li><span></span><p>Make your own schedule</p></li>
+                        <li><span></span><p>Teach students on an international platform</p></li>
+                        <li><span></span><p>Become part of an international community of passionate educators</p></li>
+                    </ul>
+                    <button class="exploreBtn">
+                        <p>start exploring</p> 
+                        <div class="btnIcon">
+                            <img src="assets/icons/right.png" alt="arrow Icon" class="defaultRight">
+                            <img src="assets/icons/right-hover.png" alt="arrow Icon" class="hoverRight">
+                        </div>
+                    </button>  
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <section class="blogSec section">
+                <div class="sectionHead">
+                    <h2 class="sectionTitle">Our Blog</h2>
+                </div>
+                <div class="blogCardContain">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <span class="blog-category">CATEGORY 01</span>
+                            <img src="assets/img/blog.jpg" alt="Blog Image">
+                        </div>
+
+                        <div class="blog-content">
+                            <h3 class="blog-title">Blog name – Lorem ipsum dolor sit amet, et varius et consectetur</h3>
+                            <p class="blog-desc">
+                                Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...
+                            </p>
+
+                            <div class="blog-footer">
+                                <span class="publisher">Publisher name</span>
+                                <div class="blog-comment">
+                                    <img src="assets/icons/blog-comment.png" alt="cooment icon">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <span class="blog-category">CATEGORY 02</span>
+                            <img src="assets/img/blog.jpg" alt="Blog Image">
+                        </div>
+
+                        <div class="blog-content">
+                            <h3 class="blog-title">Blog name – Lorem ipsum dolor sit amet, et varius et consectetur</h3>
+                            <p class="blog-desc">
+                                Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...
+                            </p>
+
+                            <div class="blog-footer">
+                                <span class="publisher">Publisher name</span>
+                                <div class="blog-comment">
+                                    <img src="assets/icons/blog-comment.png" alt="cooment icon">
+                                    <span>12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <span class="blog-category">CATEGORY 03</span>
+                            <img src="assets/img/blog.jpg" alt="Blog Image">
+                        </div>
+
+                        <div class="blog-content">
+                            <h3 class="blog-title">Blog name – Lorem ipsum dolor sit amet, et varius et consectetur</h3>
+                            <p class="blog-desc">
+                                Lorem ipsum dolor sit amet, consectetur vinit varius adipiscing elit. Ullamcorper lectus turpis amet varius volutpat sed...
+                            </p>
+
+                            <div class="blog-footer">
+                                <span class="publisher">Publisher name</span>
+                                <div class="blog-comment">
+                                    <img src="assets/icons/blog-comment.png" alt="cooment icon">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="ctaSection section">
+                <div class="ctaTitle">Start learning new skills today and pursue your passion </div>
+                <div class="ctaDesc">Join the community of global learners and start exploring today.</div>
+                <div class="ctaInputField">
+                    <input type="text" placeholder="Enter Your Mail..">
+                    <button class="exploreBtn">
+                        <p>Get Started</p> 
+                        <div class="btnIcon">
+                            <img src="assets/icons/right-cta.png" alt="arrow Icon" class="defaultRight">
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            
+
+    </div>
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-container">
+                    
+            <div class="footer-col">
+                <h3>Class Categories</h3>
+                <ul>
+                    <li>Language</li>
+                    <li>Cooking</li>
+                    <li>Music</li>
+                    <li>Arts & Craft</li>
+                    <li>Yoga</li>
+                    <li>Academic</li>
+                    <li>Back To Roots</li>
+                    <li>Funteresting</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Company</h3>
+                <ul>
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Learn</h3>
+                <ul>
+                    <li>All Classes</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Teach</h3>
+                <ul>
+                    <li>Become A Teacher</li>
+                </ul>
+            </div>
+
+            <div class="footer-card">
+                <img src="assets/img/blog.jpg" alt="Product Image" class="card-img">
+                <button class="footer-btn">SELL YOUR PRODUCTS WITH US</button>
+            </div>
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="footer-bottom">
+            <p class="left-text">© Project 2021. All rights reserved.</p>
+
+            <p class="center-text">Made with <span class="heart">❤</span> by SimplePlan</p>
+
+            <div class="footer-social">
+                <img src="assets/icons/facebook.png" alt="fb">
+                <img src="assets/icons/instagram.png" alt="instagram">
+                <img src="assets/icons/linkedin.png" alt="linkedin">
+                <img src="assets/icons/twitter.png" alt="twitter">
+                <img src="assets/icons/youtube.png" alt="youtube">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

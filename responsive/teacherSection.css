@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    .teacherSec-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .teacherCard-contain {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .teacherMobile{
+        display: none;
+    }
+    .teacher-card {
+        width: 100%;
+    }
+    .teacher-img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .teacher-card {
+        width: 100%;
+    }
+}
