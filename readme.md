@@ -32,6 +32,5 @@ Download or clone the project files.
 Open index.html in any web browser.
 Make sure the folder structure remains the same so fonts & images load correctly.
 
-👨‍💻 Author
-Dheeraj Kumar Yadav
-Frontend Developer (Internship Applicant)
+👨‍💻 Author ->
+Dheeraj Kumar Yadav ✦ Frontend Developer (Internship Applicant)
