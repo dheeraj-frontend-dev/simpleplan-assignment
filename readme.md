@@ -1,5 +1,5 @@
 📌 Project Overview
-This project is a frontend assignment provided by [Company Name] as part of the internship selection process.
+This project is a frontend assignment provided by [SimplePlan Media] as part of the internship selection process.
 The task was to convert the provided Figma UI design into a fully responsive HTML & CSS implementation while using the supplied fonts and assets.
 
 🛠️ Tech Stack Used
@@ -34,3 +34,4 @@ Make sure the folder structure remains the same so fonts & images load correctly
 
 👨‍💻 Author ->
 Dheeraj Kumar Yadav ✦ Frontend Developer (Internship Applicant)
+
